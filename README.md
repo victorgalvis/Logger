@@ -4,7 +4,7 @@ Caso:
 En una empresa de tecnología que gestiona una plataforma crítica para clientes, se ha decidido implementar un sistema de monitoreo que registre todos los eventos importantes de la aplicación, tales como errores, advertencias y otros logs del sistema. Este sistema debe garantizar que todos los eventos sean registrados de forma consistente y centralizada en un archivo o base de datos. Para evitar que múltiples componentes del sistema accedan de forma simultánea y creen registros duplicados o en desorden
 
 # Logger 
-Implementación en Python: 
+**Implementación en Python: 
 
 Se crea la clase Logger tiene una única responsabilidad, que es gestionar el registro de eventos.
 1. Atributo estático __instancia:
